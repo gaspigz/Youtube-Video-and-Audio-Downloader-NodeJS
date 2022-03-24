@@ -1,0 +1,46 @@
+.mi-nav{
+    height: 38.5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-propio{
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-h-init{
+    margin-top: -10vh;
+}
+
+.flex-h-last{
+    margin-bottom: 20vh
+}
+
+.input-text{
+    margin-bottom: 5vh;
+    text-align: center;
+    width: 35vw;
+    padding: 0.35%;
+    transition: all 0.4s;
+}
+
+.input-text:focus{
+    width: 50vw;
+}
